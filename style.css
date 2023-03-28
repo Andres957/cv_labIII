@@ -1,0 +1,30 @@
+.cabecera {
+  background-color: rgb(51, 143, 143);
+  text-align: center;
+  padding: 3px;
+  text-shadow: 3px 3px 7px;
+  width: 100%;
+  display: grid;
+}
+img {
+  border-radius: 50%;
+  border: 3px solid orangered;
+  padding: top;
+}
+.grid-layau {
+  height: 650px;
+  display: grid;
+  grid-template-areas: "datos-personales cuerpo";
+}
+#nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: aliceblue;
+}
+#nav ul li {
+  margin: 10px;
+  padding: 20px;
+  color: brown;
+  width: 100%;
+}
